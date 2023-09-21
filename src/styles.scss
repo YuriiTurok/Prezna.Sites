@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html, body{
+  height: 100%;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, ol{
+  list-style: none;
+}
+

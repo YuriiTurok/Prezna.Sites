@@ -1,0 +1,23 @@
+<div class="site">
+  <div class="site__top-content">
+    <h1 class="top-content__title">{{title}}</h1>
+    <div class="top-content__images">
+      <img class="top-content__icon" src="./assets/images/gear.svg" alt="#">
+    </div>
+  </div>
+  <div class="site__bottom-content">
+    <div class="bottom-content__image-wrapper">
+      <img class="bottom-content__image" [src]="'/assets/images/' + img + '.svg'" alt="#">
+    </div>
+    <div class="bottom-content__informative">
+      <p class="informative__name-website">
+        <img src="./assets/images/globe.svg" alt="#">
+        {{website}}
+      </p>
+      <p class="informative__name-website theme">
+        <img src="./assets/images/theme.svg" alt="#">
+        {{theme}}
+      </p>
+    </div>
+  </div>
+</div>
